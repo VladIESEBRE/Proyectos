@@ -1,26 +1,17 @@
-# 02 - Generador de contraseñas
+# Proyectos Node.js
 
-CLI para generar contraseñas aleatorias con opciones configurables.
+Repositorio con proyectos prácticos de JavaScript y Node.js que voy realizando como parte de mi formación en desarrollo backend.
 
-## Uso
+## Estructura
 
-```bash
-node app.js [opciones]
-```
+Cada subcarpeta es un proyecto independiente con su propio `package.json` y `README.md`.
 
-### Opciones
+| Proyecto | Descripción | Conceptos clave |
+|----------|-------------|-----------------|
+| [01-conversor](./01-conversor) | CLI de conversión de unidades | Módulos ES, yargs, validación, try/catch |
+| [02-generador-passwords](./02-generador-passwords) | CLI generador de contraseñas | Flags booleanos, Math.random, fs.appendFileSync |
 
-| Flag | Alias | Tipo | Default | Descripción |
-|------|-------|------|---------|-------------|
-| `--length` | `-l` | número | 12 | Longitud de la contraseña |
-| `--uppercase` | `-u` | booleano | false | Incluir mayúsculas |
-| `--numbers` | `-n` | booleano | false | Incluir números |
-| `--symbols` | `-s` | booleano | false | Incluir símbolos |
-| `--save` | — | string | — | Archivo donde guardar |
+## Stack
 
-### Ejemplos
-
-```bash
-node app.js -l 20 -u -n -s
-node app.js --length=16 --uppercase --save=passwords.txt
-```
+- Node.js (LTS)
+- JavaScript (ES Modules)
