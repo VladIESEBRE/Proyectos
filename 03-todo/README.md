@@ -16,6 +16,8 @@ node app.js <comando> [opciones]
 | `list` | — | Listar todas las tareas |
 | `complete` | `--id` | Marcar una tarea como completada |
 | `delete` | `--id` | Eliminar una tarea |
+| `clearComplete` | `` | Eliminar tareas completadas y reorganizar IDs desde el [1] |
+| `listPending / lp` | `` | Listar solo las tareas pendientes |
 
 ### Ejemplos
 
