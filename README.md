@@ -9,7 +9,9 @@ Cada subcarpeta es un proyecto independiente con su propio `package.json` y `REA
 | Proyecto | Descripción | Conceptos clave |
 |----------|-------------|-----------------|
 | [01-conversor](./01-conversor) | CLI de conversión de unidades | Módulos ES, yargs, validación, try/catch |
-| [02-generador-passwords](./02-generador-passwords) | CLI generador de contraseñas | Flags booleanos, Math.random, fs.appendFileSync |
+| [02-generador-passwords](./02-generador-passwords) | CLI generador de contraseñas | Flags booleanos, Math.random |
+| [03-todo](./03-todo) | CLI gestor de tareas con persistencia JSON | CRUD, subcomandos yargs, JSON.stringify/parse, fechas ISO,
+fs.appendFileSync |
 
 ## Stack
 
